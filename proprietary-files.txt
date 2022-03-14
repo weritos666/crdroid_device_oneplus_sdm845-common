@@ -14,7 +14,6 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
-vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
 vendor/lib/rfsa/adsp/libVC1Dec.so
 vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
@@ -427,10 +426,7 @@ vendor/lib64/libpvr.so
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
 vendor/firmware/a630_zap.b00
-vendor/firmware/a630_zap.b01
 vendor/firmware/a630_zap.b02
-vendor/firmware/a630_zap.elf
-vendor/firmware/a630_zap.mdt
 
 # Graphics (Vulkan)
 vendor/lib/hw/vulkan.adreno.so
@@ -568,12 +564,9 @@ vendor/lib64/vendor.qti.hardware.iop@2.0.so
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
 vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.elf
-vendor/firmware/ipa_fws.mdt
 
 # IRQ balance
 vendor/bin/msm_irqbalance
@@ -630,20 +623,20 @@ vendor/etc/libnfc-nci_productline.conf
 vendor/etc/libnfc-nci_shenzhentong.conf
 vendor/etc/libnfc-nci_yangchengtong.conf
 vendor/etc/libnfc-nci_zhengzhoubus.conf
-vendor/etc/libnfc-nxp.conf
-vendor/etc/libnfc-nxp_RF.conf
-vendor/etc/libnfc-nxp_RF_beijingbus.conf
-vendor/etc/libnfc-nxp_RF_changancard.conf
-vendor/etc/libnfc-nxp_RF_productline.conf
-vendor/etc/libnfc-nxp_RF_shenzhentong.conf
-vendor/etc/libnfc-nxp_RF_yangchengtong.conf
-vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf
-vendor/etc/libnfc-nxp_beijingbus.conf
-vendor/etc/libnfc-nxp_changancard.conf
-vendor/etc/libnfc-nxp_productline.conf
-vendor/etc/libnfc-nxp_shenzhentong.conf
-vendor/etc/libnfc-nxp_yangchengtong.conf
-vendor/etc/libnfc-nxp_zhengzhoubus.conf
+vendor/etc/libnfc-nxp.conf|6340d4d39531b863dbafad0cb7970d560f533bfa
+vendor/etc/libnfc-nxp_RF.conf|4fbb09ca47a6dc435894e1cdff1881d3dfff3f8f
+vendor/etc/libnfc-nxp_RF_beijingbus.conf|e2dc27da38a2fa718e6ccb95d67a223a3e6dc67a
+vendor/etc/libnfc-nxp_RF_changancard.conf|7add13842e6b7877d0285a1fd993c51d8ad2842a
+vendor/etc/libnfc-nxp_RF_productline.conf|0086383bf2f9b199fb9a2121a9e5692650cd1df5
+vendor/etc/libnfc-nxp_RF_shenzhentong.conf|ab265d07ab1afff7d666414c845f741c9608b83c
+vendor/etc/libnfc-nxp_RF_yangchengtong.conf|491c935125c29101209be51fe922981e22521071
+vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf|7add13842e6b7877d0285a1fd993c51d8ad2842a
+vendor/etc/libnfc-nxp_beijingbus.conf|5e540aeadd1cc04849c753a33413e75083722d5f
+vendor/etc/libnfc-nxp_changancard.conf|5e540aeadd1cc04849c753a33413e75083722d5f
+vendor/etc/libnfc-nxp_productline.conf|5e540aeadd1cc04849c753a33413e75083722d5f
+vendor/etc/libnfc-nxp_shenzhentong.conf|5e540aeadd1cc04849c753a33413e75083722d5f
+vendor/etc/libnfc-nxp_yangchengtong.conf|5e540aeadd1cc04849c753a33413e75083722d5f
+vendor/etc/libnfc-nxp_zhengzhoubus.conf|5e540aeadd1cc04849c753a33413e75083722d5f
 vendor/lib/libpn553_fw.so
 vendor/lib64/hw/android.hardware.nfc@1.0-impl.so
 vendor/lib64/ese_client.so
