@@ -1101,6 +1101,7 @@ vendor/lib64/libwvhidl.so
 
 # WiFi
 vendor/bin/cnss-daemon
+vendor/bin/cnss_diag
 
 # WiFi Display (system) - from lemonades - TP1A.220905.001
 system/framework/WfdCommon.jar|323859204993cb8bf89821baeb08a6a85e750c65
