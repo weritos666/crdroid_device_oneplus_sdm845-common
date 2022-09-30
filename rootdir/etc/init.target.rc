@@ -34,6 +34,12 @@ on early-init
     mkdir /bt_firmware 0771 system system
     symlink /data/tombstones /tombstones
 
+on init
+    chmod 0660 /sys/class/drm/card0-DSI-1/dimlayer_bl_en
+    chmod 0660 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/main_display/hbm
+    chown system graphics /sys/class/drm/card0-DSI-1/dimlayer_bl_en
+    chown system graphics /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/main_display/hbm
+
 on fs
     wait /dev/block/platform/soc/1d84000.ufshc
     symlink /dev/block/platform/soc/1d84000.ufshc /dev/block/bootdevice
