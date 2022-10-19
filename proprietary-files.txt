@@ -789,6 +789,23 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
+# QTI ImproveTouch
+vendor/app/com.qualcomm.qti.improvetouch.service/com.qualcomm.qti.improvetouch.service.apk
+vendor/bin/hbtp_daemon
+vendor/etc/hbtp/hbtpcfg.dat
+vendor/etc/hbtp/hbtpcfg_sdm845_800h_qhd.dat
+vendor/etc/hbtp/hbtpcfg_sdm845_800s_4k.dat
+vendor/etc/hbtp/hbtpcfg_sdm845_800s_qhd.dat
+vendor/etc/hbtp/loader.cfg
+vendor/etc/hbtp/qtc800h.bin
+vendor/etc/hbtp/qtc800s_dsp.bin
+vendor/lib64/libfastrpc_utf_stub.so
+vendor/lib64/libhbtpclient.so
+vendor/lib64/libhbtpdsp.so
+vendor/lib64/libhbtpfrmwk.so
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
+
 # RIL
 system/framework/qcnvitems.jar
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
