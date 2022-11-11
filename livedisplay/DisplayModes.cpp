@@ -46,27 +46,6 @@ const std::map<int32_t, DisplayModes::ModeInfo> DisplayModes::kModeMap = {
           {"native_display_loading_effect_mode", "1"},
       }}},
     {1,
-     {"Natural",
-      {
-          {"native_display_p3_mode", "0"},
-          {"native_display_wide_color_mode", "0"},
-          {"native_display_srgb_color_mode", "0"},
-          {"native_display_customer_srgb_mode", "0"},
-          {"native_display_customer_p3_mode", "0"},
-          {"native_display_srgb_color_mode", "1"},
-          {"native_display_loading_effect_mode", "0"},
-      }}},
-    {2,
-     {"AMOLED Wide Gamut",
-      {
-          {"native_display_p3_mode", "0"},
-          {"native_display_wide_color_mode", "0"},
-          {"native_display_srgb_color_mode", "0"},
-          {"native_display_customer_srgb_mode", "0"},
-          {"native_display_customer_p3_mode", "0"},
-          {"native_display_wide_color_mode", "1"},
-      }}},
-    {3,
      {"sRGB",
       {
           {"native_display_p3_mode", "0"},
@@ -76,7 +55,7 @@ const std::map<int32_t, DisplayModes::ModeInfo> DisplayModes::kModeMap = {
           {"native_display_customer_p3_mode", "0"},
           {"native_display_customer_srgb_mode", "1"},
       }}},
-    {4,
+    {2,
      {"DCI_P3",
       {
           {"native_display_p3_mode", "0"},
@@ -85,6 +64,16 @@ const std::map<int32_t, DisplayModes::ModeInfo> DisplayModes::kModeMap = {
           {"native_display_customer_srgb_mode", "0"},
           {"native_display_customer_p3_mode", "0"},
           {"native_display_customer_p3_mode", "1"},
+      }}},
+    {3,
+     {"AMOLED Wide Gamut",
+      {
+          {"native_display_p3_mode", "0"},
+          {"native_display_wide_color_mode", "0"},
+          {"native_display_srgb_color_mode", "0"},
+          {"native_display_customer_srgb_mode", "0"},
+          {"native_display_customer_p3_mode", "0"},
+          {"native_display_wide_color_mode", "1"},
       }}},
 };
 
